@@ -219,6 +219,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor
 
+# Keyhandler
+PRODUCT_PACKAGES += \
+    KeyHandler
+    
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_beryllium
@@ -278,6 +282,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPBerylliumFrameworksOverlay \
     BerylliumApertureOverlay \
     BerylliumCarrierConfigOverlay \
     BerylliumFaceUnlockServiceOverlay \
