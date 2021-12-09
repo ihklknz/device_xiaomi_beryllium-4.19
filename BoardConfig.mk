@@ -141,7 +141,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2020-12-01
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # SELinux
 include device/qcom/sepolicy_vndr/SEPolicy.mk
