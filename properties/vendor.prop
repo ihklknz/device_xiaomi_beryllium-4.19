@@ -196,6 +196,8 @@ persist.device_config.mglru_native.lru_gen_config=core
 
 # Netflix custom property
 ro.netflix.bsp_rev=Q845-14477-1
+ro.netflix.channel=497730f0-ad4b-11e7-95a4-c7ad113ce187
+ro.netflix.signup=1
 
 # Network manager
 persist.vendor.data.iwlan.enable=true
