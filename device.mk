@@ -438,7 +438,7 @@ PRODUCT_USE_VNDK_OVERRIDE := true
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
+    android.hardware.usb@1.3-service-qti
 
 # Vendor blobs
 $(call inherit-product, vendor/xiaomi/beryllium/beryllium-vendor.mk)
