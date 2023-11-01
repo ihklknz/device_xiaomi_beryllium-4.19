@@ -863,7 +863,7 @@ vendor/lib64/libswvdec.so|ae1f55c7094e2a006e28dcfb0f2b9c32634fb849
 
 # Peripheral manager - from PNX - RKQ1.200906.002
 vendor/bin/pm-proxy|832cbe7995de8177a2ef5bdf3f145131dfe828d4
-vendor/bin/pm-service|28f5e8d8f98c8e97941f514bafdc0b369cc5b600
+vendor/bin/pm-service|05a141c27d74efc6d6bbd728785af37080648acc
 vendor/lib/libperipheral_client.so|4f4700270730d4043580a1e76566fd0124b01e18
 vendor/lib/libspcom.so|acec0b9bd1f9e31b3022f14975b0cc5566e4bb4a
 vendor/lib64/libperipheral_client.so|8cb65f4c93719767048dd7b1b845473fe6074ff7
