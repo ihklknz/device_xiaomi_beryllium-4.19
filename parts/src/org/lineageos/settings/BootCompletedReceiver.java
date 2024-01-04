@@ -25,6 +25,7 @@ import android.util.Log;
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
+import org.lineageos.settings.dolby.DolbyUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -41,5 +42,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         }
         DozeUtils.checkDozeService(context);
         ThermalUtils.startService(context);
+        DolbyUtils.getInstance(context);
     }
 }
