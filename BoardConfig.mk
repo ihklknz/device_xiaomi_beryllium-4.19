@@ -54,6 +54,7 @@ TARGET_USES_ION := true
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/vendor.qti.esepowermanager@1.1-service.xml
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 1
