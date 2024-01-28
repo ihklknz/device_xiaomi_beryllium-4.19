@@ -1018,12 +1018,6 @@
     <!-- Whether to enable Lineage Health Service -->
     <bool name="config_lineageHealthSupported">true</bool>
     
-    <!-- Whether or not the device is capable of multiple levels of vibration intensity.
-         Note that this is different from whether it can control the vibration amplitude as some
-         devices will be able to vary their amplitude but do not possess enough dynamic range to
-         have distinct intensity levels -->
-    <bool name="config_vibration_supports_multiple_intensities">true</bool>
-
      <!-- Allow more cached apps in the background -->
     <string-array name="configs_setCachedAppsBackground">
  	<item>activity_manager/max_cached_processes=64</item>
