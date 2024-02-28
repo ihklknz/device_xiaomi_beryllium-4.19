@@ -18,6 +18,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 HORIZON_MAINTAINER := hklknzツ
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BUILD_INNERTUNE := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_beryllium
